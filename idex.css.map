@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAOA,AAAA,IAAI,CAAA;EACA,WAAW,EAAC,QAAQ;EACpB,SAAS,EAAE,KAAK;CACnB",
+    "sources": [
+        "idex.scss"
+    ],
+    "names": [],
+    "file": "idex.css"
+}

@@ -1,0 +1,465 @@
+// <<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>
+
+// <<<<<<<<<<<<// common css>>>>>>>>>>>>>>>>>>
+
+// <<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>
+
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5rem;
+    color: #708189;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1320px;
+    width: 100%;
+}
+img{
+    margin-left: 4rem;
+    max-width: 100%;
+    height: auto;
+}
+
+
+// <<<header css starts here>>>>>>>>
+
+#nav-menu{
+    width: 100%;
+    .head{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-logo{
+        img{
+            width: 100px;
+            height: 100px;
+        }
+    }
+    .navbar{
+        width: 100%;
+         display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+       .navbar-navi{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           flex-direction: row;
+           margin-left: 3rem;
+           .navbar-link{
+               font-size: 1rem;
+               margin-left: 1rem;
+               position: relative;
+           }
+       }
+        .navbar-link::before{
+           content: "";
+           position: absolute;
+           top: 100%;
+           bottom: 50%;
+           width: 0%;
+           height: 8%;
+           background: #ffc178;
+           transition: all 0.3s ease 0s;
+
+       }
+         .navbar-link:hover::before{
+             width: 70%;
+         }
+        li{
+            list-style: none;
+            
+            a{
+                padding: 1rem 1rem;
+                font-size: 1rem;
+                text-decoration: none;
+                color: #708189;
+            }
+        }
+        .btn-one{
+padding: .7rem 1rem;
+margin-left: 1rem;
+font-size: .9rem;
+color: white;
+background: #ffc178;
+border-radius: 20px;
+border: none;
+transition: all 0.3s ease 0s;
+cursor: pointer;
+font-weight: bold;
+        }
+        .btn-one:hover{
+            background: white;
+            color: #ffc178;
+
+        }
+    }
+}
+   
+    
+
+
+
+// <<<<<body part starts here>>>>>>>>>
+
+
+#main{
+    line-height: 2rem;
+    height: 100vh;
+    .row{
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+        .body{
+            width: 100%;
+            height: 100vh;
+            background: url("./bg.png");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-position: 100%;
+            display:flex ;
+            justify-content: center;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-bottom: 4rem;
+            padding: 1.5rem 1.5rem;
+            // margin-top: 6rem;
+            h1{
+                color: #ffc178;
+                margin-left: 1rem;
+                width: 40%;
+                padding: 1rem .2rem;
+                font-size: 2rem;
+            }
+            p{
+                margin-top: .4rem;
+                margin-bottom: 1rem;
+                font-size: .8rem;
+                width: 40%;
+            }
+            .btn-two{
+                padding: .7rem 1rem;
+margin-left: 1rem;
+font-size: .9rem;
+color: white;
+background: #ffc178;
+border-radius: 20px;
+border: none;
+transition: all 0.3s ease 0s;
+cursor: pointer;
+font-weight: bold;
+        }
+        .btn-two:hover{
+            background: white;
+            color: #ffc178;
+            }
+        }
+
+    }
+}
+
+   
+
+// <department part starts here>>>>>>>>>>>>
+
+
+
+#department{
+    height: 80vh;
+    .dept-head{
+        text-align: center;
+        h1{
+            font-size: 2rem;
+            color: black;
+
+        }
+        p{
+            margin-left: 3rem;
+            margin-bottom: 2rem;
+                        
+            width: 80%;
+            font-size: 1rem;
+            margin-top: 1rem;
+            
+        }
+    }
+    .row{
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h1{
+            margin-left: 1rem;
+            margin-top: -100px;
+            color: white;
+            margin-left: 2rem;
+            font-size: 1.5rem;
+        }
+        img{
+            width: 400px;
+            height: 500px;
+        }
+    }
+}
+
+
+
+
+// <<<<<<learn section starts here>>>>>>>>>>>>>
+
+#learn{
+    font-family: 'Work Sans', sans-serif;
+    line-height: 1.5rem;
+    margin-top: 5rem;
+    width: 100%;
+    // height: 60vh;
+    .row{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        img{
+            widows: 150px;
+            height: 150px;
+        }
+        .middle{
+width: 50%;
+
+        
+        img{
+            cursor: pointer;
+            widows: 350px;
+            height: 350px;
+
+           
+        }
+    }
+        .right{
+            margin-left: 5rem;
+            width: 50%;
+            h1{
+                color: black;
+                line-height: 2.5rem;
+                font-size: 2rem;
+            }
+            p{
+                font-size: .8rem;
+                margin-top: 1rem;
+            }
+            .number{
+                margin-top: 3rem;
+                 line-height: .6rem;
+                text-align: center;
+                flex-direction: row;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .two{
+                    margin-left: 2rem;
+                    margin-right: 2rem;
+                    h4{
+                        font-size: 2rem;
+                        color: #ff5f72;
+                    }
+                    p{
+                        font-size: 1rem;
+                        color: #ff5f72;
+                    }
+                }
+                .one{
+                    
+                    h4{
+                        font-size: 2rem;
+                    color: #ffba00;
+                    }
+                    p{
+                        font-size: 1rem;
+                        color: #ffba00
+                    }
+                }
+                .three{
+                    
+                    h4{
+                        font-size: 2rem;
+                    color: #43cb83;
+                }
+                        p{
+                            font-size: 1rem;
+                            color: #43cb83;
+                        }
+
+                    }
+                    
+                }
+
+            }
+        }
+    }
+
+
+
+    // <<<<<around section starts here>>>>>>>>>>>>>
+    #around{
+        width: 100%;
+        background: #fdf6ee;
+        margin-top: 10rem;
+                // height: 60vh;
+        h1{
+            margin-top: 3rem;
+            font-size: 2rem;
+            color: black;
+            text-align: center;
+        }
+            .row{
+                
+                margin-top: 3rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                .card-one{
+                    img{
+                        margin-left: 0rem;
+                        width: 300px;
+                        height: 200px;
+                    }
+                    // width: 33%;
+                    .card{
+                        margin-left: 2rem;
+                        background: white;
+                        border: 2px solid white;
+                        text-align: center;
+                        h5{
+                            font-size: .8rem;
+                            color: black;
+                        }
+                        h5:hover{
+                            color: #ffc178;
+                            text-decoration: underline;
+                        }
+                        a{
+                            margin-top: 1.5rem;
+                            text-decoration: none;
+                            color: #708189;
+                        }
+                    }
+                }
+            }
+        
+    }
+
+
+
+    // <<<<<<footer section starts here>>>>>>>>>>
+
+    #footer{
+
+        margin-top: 4rem;
+        background: #252c3a;
+        .row{
+            margin-top: 5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .footer-one{
+                width: 33%;
+
+                padding: 1rem 1rem;
+                margin-top: 4rem;
+                p{
+                    font-size: 0.7rem;
+                    margin-right: 3rem;
+                    margin-left: 4rem;
+                }
+                .icons{
+                    margin-top: 1rem;
+                    margin-left: 3rem;
+                    i{
+                        cursor: pointer;
+                        font-size: 1rem;
+                        margin-left: .8rem;
+                    }
+                    i:hover{
+                        color: #0089fd;
+                    }
+                }
+            }
+            .footer-two{
+                margin-top: 3rem;
+                width: 33%;
+                h4{
+                    color: white;
+                    font-size: 1.2rem;
+                }
+                p{
+                    font-size: 0.7rem;
+                    margin-top: 1rem;
+                }
+            }
+            .footer-three{
+                margin-top: 3rem;
+                width: 33%;
+                h4{
+                    color: white;
+                    font-size: 1.2rem;
+                }
+                p{
+                    font-size: 0.7rem;
+                    margin-top: 1rem;
+                }
+            }
+            .footer-four{
+                line-height: 1.7rem;
+                margin-top: 1rem;
+                width: 33%;
+                h4{
+                    color: white;
+                    font-size: 1.2rem;
+                }
+                p{
+                    font-size: 0.7rem;
+                    margin-top: 1rem;
+                }
+                .forum{
+                    margin-top: 1rem;
+                    input{
+                        font-size: 0.7rem;
+                        width: 200px;
+                        padding: .7rem 1rem;
+                    }
+                    .btn-four{
+                        background: #ffc178;
+                        color: white;
+                        font-size: 0.7rem;
+                        padding: .7rem 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .copyright{
+        // width: 100%;
+     max-width: 100%;
+        background: #1d232e;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: row;
+        .list{
+            margin-left: auto;
+            display: flex;
+            flex-direction: row;
+            p{
+                margin-right: 2rem;
+                margin-left: 1rem;
+            }
+        }
+    }
